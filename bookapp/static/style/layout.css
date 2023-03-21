@@ -1,0 +1,195 @@
+* {
+  background: #f4f4f4;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h3 {
+  font-weight: 200;
+  margin-bottom: 5vh;
+}
+
+.content {
+  padding: 2% 10%;
+  display: grid;
+  grid-template-columns: 2fr;
+  gap: 27px;
+  align-items: center;
+  justify-items: start;
+}
+#bookDetails {
+  margin-left: 4rem;
+}
+
+#appname {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 300;
+  justify-self: center;
+}
+
+#homeAnchor {
+  justify-self: end;
+  align-self: end;
+}
+
+#bookimage {
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  width: 25%;
+  height: 25%;
+  filter: drop-shadow(-6px 6px 0px #000000);
+}
+
+#bookname {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+  letter-spacing: 0.006em;
+  color: #000000;
+}
+
+#pricedetail {
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr 5fr;
+  justify-content: baseline;
+}
+#pricedetail .detail {
+  margin-top: 3vh;
+  font-size: larger;
+  background: #fbd4e4;
+  border-radius: 4px;
+  text-align: center;
+}
+#pricedetail h3 {
+  margin-right: 0;
+}
+.detail {
+  font-weight: 100;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+#reviewbutton {
+  color: #000000;
+  background-color: #f4f4f4;
+  border: 3px solid #000000;
+  box-sizing: border-box;
+
+  height: 10vh;
+  filter: drop-shadow(-6px 6px 0px #000000);
+}
+#reviewbutton:hover {
+  background-color: #fbd4e4;
+  cursor: pointer;
+}
+.search {
+  border: 0;
+  background: transparent;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  font-size: larger;
+}
+
+::placeholder {
+  color: #9098a9;
+  text-align: center;
+  font-size: large;
+}
+.search:focus {
+  outline: none;
+}
+.searchButton:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.searchButton {
+  border: none;
+  background-color: #f4f4f4;
+  color: black;
+  text-decoration: solid;
+  font-size: larger;
+}
+
+.notfound {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.HomepageAnchor:hover {
+  background-color: #d7c5cc;
+}
+.checked{color: orange;}
+
+.HomepageAnchor {
+  color: #000000;
+    background-color: #f4f4f4;
+    border: 3px solid gray;
+    box-sizing: border-box;
+    height: fit-content;
+    text-align: center;
+    filter: drop-shadow(-3px 3px 0px gray);
+    font-size: larger;
+    text-decoration: none;
+}
+
+.loginsign {
+  font-size: 6vh;
+}
+.review {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin: 1rem;
+}
+#reviewlist {
+  list-style: none;
+}
+.reviewer {
+  width: 50%;
+}
+.ratingandtext {
+  margin-right: 0;
+}
+.landingButtons {
+  font-size: 7vh;
+  background-color: rgb(219, 208, 193);
+  border-radius: 20px;
+  margin: 1rem;
+}
+
+#userform {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-top: 4rem;
+  background-color: transparent;
+}
+.nameform form {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: transparent;
+}
+.nameform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1%;
+  background-color: transparent;
+}
+.hideDiv {
+  display: none;
+}
+#adminButton {
+  background-color: rgb(219, 208, 193);
+  border-radius: 20px;
+  width: fit-content;
+  justify-self: center;
+  margin-top: 10px;
+}
+

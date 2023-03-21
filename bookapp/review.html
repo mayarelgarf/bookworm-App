@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="static/style/layout.css" rel="stylesheet" />
+    <link href="static/style/review.css" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/georgia" />
+</head>
+<body>
+    <div class="maincontent">
+    <a href="/home" class="HomepageAnchor">back to homepage</a>
+    <h1 id="appname">BookWorm App</h1>
+    <h2>Add a review</h2>
+    <form method="get" action="/thanks">
+        <input type="hidden" value =$$title$$ name=title >
+        <label>Reviewer</label>
+        <input name="reviewer" class="search" required>
+        <label>Rating</label>
+        <select name="rating" required>
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+          </select>
+        <label>Review</label>
+        <textarea name="text" required></textarea>
+        <button class="searchButton"style="background-color: rgb(219, 208, 193) ; border-radius: 20px; margin-top:10px">submit review</button>
+    </form>
+    </div>
+   
+</body>
+</html>

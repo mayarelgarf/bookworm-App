@@ -1,0 +1,33 @@
+.maintitle {
+  text-align: center;
+}
+
+.Homecontent {
+  padding: 2% 10%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+#searchButton {
+  width: 40%;
+  height: 40%;
+  background-color: rgb(219, 208, 193);
+  text-align: center;
+  border-radius: 20px;
+  margin: 1rem;
+}
+.HomeSearch{margin-top: 20px;}
+.HomeSearch form {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 10px;
+  justify-items: center;
+  align-items: center;
+}
+#searchinput {
+  width: 80%;
+  height: 40%;
+}
+
+

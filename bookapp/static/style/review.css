@@ -1,0 +1,19 @@
+.maincontent {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  
+}
+.maincontent a {
+  justify-self: start;
+}
+.maincontent form {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  row-gap: 10px;
+}
+form label{font-size: larger;}
+.dropdowncontent{display: none;position: absolute; width: auto;}

@@ -1,0 +1,66 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Header Styles */
+h1#appname {
+    margin: 0;
+    padding: 20px;
+    background-color:rgb(219, 208, 193);
+    color: black;
+    text-align: center;
+}
+
+/* Admin Panel Styles */
+h2 {
+    margin: 30px 0 10px;
+    text-align: center; ;width: fit-content; margin-left: 25%;
+}
+
+/* Book Styles */
+h2:nth-of-type(n+2) {
+    margin-top: 50px;
+}
+
+
+/* Review Styles */
+div {
+    border: 1px solid #ccc;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 10px;
+    width: 50%; text-align: center;
+   
+}
+
+h3 {
+    margin: 0;
+    font-size: 18px;
+   
+}
+
+p {
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+
+button {
+    background-color: #b86d68;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(203, 73, 73);
+}
+.editReview{border: 1px solid black;height: fit-content; }
+.editReview input{display: block; margin-left: 25%; margin-top: 10px;}
+#update{background-color: rgb(70 131 228 / 74%)}

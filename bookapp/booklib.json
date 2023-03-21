@@ -1,0 +1,276 @@
+[
+    {
+        "title": "To Kill a Mockingbird",
+        "image": "../static/images/book-cover-To-Kill-a-Mockingbird-many-1961.webp",
+        "price": 10.99,
+        "description": "A powerful story of racial injustice and family conflict set in the Deep South.",
+        "availableBookstores": [
+            "Amazon",
+            "Barnes & Noble",
+            "Books-A-Million"
+        ],
+        "reviews": [
+            {
+                "author": "Jane Smith",
+                "rating": 5,
+                "text": "i like it!"
+            }
+        ]
+    },
+    {
+        "title": "The Great Gatsby",
+        "image": "../static/images/CK-3.webp",
+        "price": 12.99,
+        "description": "A timeless classic that beautifully captures the essence of the Jazz Age.",
+        "availableBookstores": [
+            "Amazon",
+            "Barnes & Noble",
+            "IndieBound"
+        ],
+        "reviews": [
+            {
+                "author": "Samantha Johnson",
+                "rating": 5,
+                "text": "new"
+            },
+            {
+                "author": "Mike Williams",
+                "rating": 2,
+                "text": "An eye-opening book that is still relevant today."
+            }
+        ]
+    },
+    {
+        "title": "Pride and Prejudice",
+        "image": "../static/images/pride-and-prejudice.jpg",
+        "price": 8.99,
+        "description": "A witty and romantic novel about love, marriage, and society in Georgian England.",
+        "availableBookstores": [
+            "Amazon",
+            "Barnes & Noble",
+            "Books-A-Million",
+            "IndieBound"
+        ],
+        "reviews": [
+            {
+                "author": "Lisa Brown",
+                "rating": 5,
+                "text": "One of my all-time favorite books. The characters are unforgettable."
+            },
+            {
+                "author": "David Jones",
+                "rating": 5,
+                "text": "A great classic novel that still holds up today."
+            },
+            {
+                "author": "John Doe",
+                "rating": 4,
+                "text": "simply beautiful"
+            }
+        ]
+    },
+    {
+        "title": "1984",
+        "image": "../static/images/nineteen-eighty-four.jpg",
+        "price": 11.99,
+        "description": "A dystopian novel about a totalitarian government that controls every aspect of citizens' lives.",
+        "availableBookstores": [
+            "Amazon",
+            "Barnes & Noble",
+            "Books-A-Million",
+            "IndieBound"
+        ],
+        "reviews": [
+            {
+                "author": "John Smith",
+                "rating": 5,
+                "text": "An eye-opening book that is still relevant today."
+            },
+            {
+                "author": "Karen Lee",
+                "rating": 5,
+                "text": "A dark and depressing read, but thought-prov"
+            },
+            {
+                "author": "Obaida",
+                "rating": 5,
+                "text": "i like it"
+            }
+        ]
+    },
+    {
+        "title": "The Trial",
+        "image": "../static/images/the-trial.jpg",
+        "price": 9.99,
+        "description": "A surreal and absurdist novel about a man who is arrested and prosecuted by a mysterious authority.",
+        "availableBookstores": [
+            "Amazon",
+            "Barnes & Noble",
+            "IndieBound"
+        ],
+        "reviews": []
+    },
+    {
+        "title": "Crime and Punishment",
+        "image": "../static/images/crime-and-punishment.jpg",
+        "price": 11.99,
+        "description": "A psychological novel about a young man who commits a murder and is consumed by guilt and paranoia.",
+        "availableBookstores": [
+            "Amazon",
+            "Barnes & Noble",
+            "Books-A-Million",
+            "IndieBound"
+        ],
+        "reviews": [
+            {
+                "author": "John Doe",
+                "rating": 5,
+                "text": "amazing"
+            },
+            {
+                "author": "fred bennigton",
+                "rating": 5,
+                "text": "Dostoevsky is a genius of psychological literature."
+            },
+            {
+                "author": "mayar",
+                "rating": 5,
+                "text": "this is a great book"
+            }
+        ]
+    },
+    {
+        "title": "Moby Dick",
+        "image": "../static/images/moby-dick.jpg",
+        "price": 13.99,
+        "description": "An epic novel about a whaling ship and its captain's obsessive quest for revenge against a white whale.",
+        "availableBookstores": [
+            "Amazon",
+            "Barnes & Noble",
+            "Books-A-Million",
+            "IndieBound"
+        ],
+        "reviews": []
+    },
+    {
+        "title": "Lolita",
+        "image": "../static/images/lolita.jpg",
+        "price": 10.99,
+        "description": "A controversial and provocative novel about a middle-aged man's sexual obsession with a young girl.",
+        "availableBookstores": [
+            "Amazon",
+            "Barnes & Noble",
+            "Books-A-Million",
+            "IndieBound"
+        ],
+        "reviews": [
+            {
+                "author": "John Doe",
+                "rating": 5,
+                "text": "great book"
+            }
+        ]
+    },
+    {
+        "title": "Othello",
+        "image": "../static/images/othello.jpg",
+        "price": 7.99,
+        "description": "A tragedy about a Moorish general in the Venetian army who is manipulated by his jealous and deceitful ensign.",
+        "availableBookstores": [
+            "Amazon",
+            "Barnes & Noble",
+            "IndieBound"
+        ],
+        "reviews": [
+            {
+                "author": "Samantha Johnson",
+                "rating": 4,
+                "text": "A beautifully written book that transports you to a different era."
+            },
+            {
+                "author": "Mike Williams",
+                "rating": 3,
+                "text": "I enjoyed this book, but it wasn't as great as everyone says."
+            }
+        ]
+    },
+    {
+        "title": "Anna Karenina",
+        "image": "../static/images/anna-karenina.jpg",
+        "price": 12.99,
+        "description": "A complex and sweeping novel about love, marriage, and society in 19th-century Russia.",
+        "availableBookstores": [
+            "Amazon",
+            "Barnes & Noble",
+            "Books-A-Million",
+            "IndieBound"
+        ],
+        "reviews": []
+    },
+    {
+        "title": "The Book of Disquiet",
+        "image": "../static/images/the-book-of-disquiet.jpg",
+        "price": 8.99,
+        "description": "A fragmented and philosophical work about the inner life and musings of a lonely office clerk.",
+        "availableBookstores": [
+            "Amazon",
+            "Barnes & Noble",
+            "IndieBound"
+        ],
+        "reviews": [
+            {
+                "author": "Samantha Johnson",
+                "rating": 4,
+                "text": "A beautifully written book that transports you to a different era."
+            }
+        ]
+    },
+    {
+        "title": "essias",
+        "image": "../static/images/essais.jpg",
+        "price": 9.99,
+        "description": "exploratory journeys in which he works through logical steps to bring skepticism to what is being discussed.",
+        "availableBookstores": [
+            "Amazon",
+            "Barnes & Noble",
+            "Books-A-Million",
+            "IndieBound"
+        ],
+        "reviews": [
+            {
+                "author": "Emily Davis",
+                "rating": 5,
+                "text": "jhjhjh"
+            },
+            {
+                "author": "Mark Johnson",
+                "rating": 2,
+                "text": "I didn't enjoy this book as much as I thought I would. The main character's constant complaining and negativity got on my nerves."
+            }
+        ]
+    },
+    {
+        "title": "The idiot",
+        "image": "../static/images/the-idiot.jpg",
+        "price": 9.99,
+        "description": "A landmark novel that tells the multi-generational story of the Buend\u00c3\u00ada family, their home town of Macondo, and the myriad events, both magical and mundane, that shape their lives.",
+        "availableBookstores": [
+            "Amazon",
+            "Barnes & Noble",
+            "Books-A-Million",
+            "IndieBound"
+        ],
+        "reviews": [
+            {
+                "author": "Maria Rodriguez",
+                "rating": 5,
+                "text": "This is one of the most beautiful books I've ever read. The language is poetic and the characters are so vivid and memorable."
+            },
+            {
+                "author": "Jorge Martinez",
+                "rating": 4,
+                "text": "I read this book in college and it blew my mind. It's a challenging read, but so worth it."
+            }
+        ]
+    }
+]

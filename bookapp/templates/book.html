@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="static/style/layout.css" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/georgia" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="content">
+      <h1 id="appname"> Bookworm app</h1>
+      <a href="/home"  class="HomepageAnchor" id="homeAnchor">Back to Homepage</a>
+      <div id="bookDetails">
+        <img id="bookimage" src="{{book.image}}" />
+        <h2 id="bookname">{{book.title}}</h2>
+        <div id="pricedetail"><h3><b>Price:</b></h3>
+        <p id="price" class="detail">{{book.price}}</p></div>
+        <h3<b>Description</b></h3>
+        <p id="description" class="detail">" {{book.description}} "</p>
+        <h3><b>Available bookstores</b></h3>
+        
+        <ul>{% for bookstore in book.availableBookstores %}
+          <li id="availablebookstores" class="detail">{{bookstore}}</li>
+          {%endfor%}
+        </ul>
+         
+        <h3>Reviews</h3>
+        <div id="reviews" class="detail">
+          <ul>
+            {% for review in book.reviews %}
+            <li id="reviewlist">
+              <div class="review">
+              <h4 class="reviewer">{{review.author}}</h4>
+              <div class="ratingandtext">
+              <h5>Rating:{%for i in range(review.rating) %} <span class="fa fa-star checked"></span>{%endfor%}</h5>
+              
+              <p class="reviewText"> " {{review.text}} "</p>
+            </div>
+            </div>
+            </li>
+            
+            {% endfor %}
+          </ul>
+            
+        </div>
+        <a href="/review?bookTitle={{book.title}}">
+          <button id="reviewbutton"> Add a review from here </button>
+        </a>    
+      </div>
+    </div>
+  </body>
+</html>

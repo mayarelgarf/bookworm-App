@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="static/style/layout.css" rel="stylesheet" />
+    <link href="static/style/home.css" rel="stylesheet"/>
+    <link href="https://fonts.cdnfonts.com/css/georgia" />
+</head>
+<body>
+   
+    <div id="landingbody">
+    <div class="maintitle">
+        <h1 id="appname">BookWorm App</h1>
+        <p>find your next read!</p>
+      </div>
+     <div id="userform">
+        <div>
+           <form action="/home">
+       <input type="submit" value="Continue as User" class="searchButton landingButtons">
+          </form> 
+        </div>
+        <p>OR</p>
+        <button type="submit" class="searchButton landingButtons" onclick="displayForm()" id="continueAsAdmin"> continue as Admin</button>
+     </div>
+   </div> 
+    <div class="nameform  hideDiv"  id="nameform">
+        <form id="uservalid">
+         <label class="loginsign" style="background: transparent;">log in as admin</label>
+         <input type="text" class="search" placeholder="Admin name" id="adminName" >
+         <input type="password" class="search" placeholder="Admin password" id="adminPass">
+         <button type="button"  class="searchButton" id="adminButton" onclick="pass()" >Enter</button>
+     </form> 
+     </div>
+<script src="static/script.js"></script>
+</body>
+</html>

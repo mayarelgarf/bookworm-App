@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="static/style/layout.css" rel="stylesheet" />
+    <link href="static/style/admin.css" rel="stylesheet" />
+</head>
+<body>
+    <h1 id="appname">BookWorm App's ADMIN PANEL</h1>
+    <p style="margin-left: 45%; font-size: 100%;" id="welcomeName"></p>
+    {% for book in books %}
+        <h2>Book:{{ book.title }}</h2>
+        {% for review in book.reviews %}
+            <div>
+                <h3>Review</h3>
+                <p>{{ review.author }}</p>
+                <p>{{ review.rating }}</p>
+                <p>{{ review.text }}</p>
+                <button onclick="deleteReview('{{ book.title }}', '{{ review.author }}')"
+                >Delete Review</button>
+                <div class="editReview">
+                  <h3>Edit Review</h3>
+                <form method="get" id="review-form" action="/update_review"
+                >
+                    <input type="hidden" value="{{book.title}}" name="booktitle">
+                    <input type="hidden" value="{{review.author}}" name="reviewAuthor" >
+                    <select name="rating" required>
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                      </select>
+                    <input type="text" name="text" placeholder="Text" required>
+                    <button type="submit" id="update">Update Review</button>
+                </form>  
+                </div>
+                
+            </div>
+        {% endfor %}
+    {% endfor %}
+
+    <script>
+    
+        function deleteReview(bookTitle, reviewAuthor) {
+            // Send an AJAX request to the server to delete the review
+            fetch('/delete_review/' + bookTitle + '/' + reviewAuthor, { method: 'DELETE' })
+                .then(response => {
+                    if (response.ok) {
+                        // Reload the page to show the updated reviews
+                        location.reload();
+                        console.log('item sucessfully deleted')
+                    } else {
+                        console.error('Failed to delete review');
+                    }
+                });
+        }
+           // Handle the form submission for updating a review
+    </script>
+
+    <script src="../static/script.js"></script>
+    <script>
+        window.onload =() =>{welcome()};
+    </script>
+    
+ 
+    
+
+</body>
+</html>
